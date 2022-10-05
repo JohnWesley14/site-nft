@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+}
+.CardBottomTextUp h4, .Clock h4{
+    color:  hsl(215, 32%, 27%);
+}
+.Ethereum h4{
+    color: hsl(178, 100%, 50%);
+}
+
+h3,h4,p{
+    display: flex;
+    word-wrap: break-word;
+}
+.all{
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    width: 280px;
+    height: 450px;
+}
+.CardBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.BoxImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#Card-Image{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 95%;
+    border-radius: 10px;
+}
+.CardBottomTextUp{
+    width: 98%;
+}
+.CardBottomTextCenter{
+    display: flex;
+    justify-content: space-between;
+}
+.CardBottomTextCenter h4{
+    padding-left: 5px;
+}
+.CardBottomTextCenter, .CardBottomTextUp, .CardBottomTextDown{
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+.CardBottomTextUp h4 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+.CardBottomTextDown h4{
+    margin-top: 5px;
+}
+.CardBottomTextDown img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.CardBottomTextDown{
+    border-top: 0.01px solid rgba(207, 230, 227, 0.604);
+    gap: 10px;
+    display: flex;
+    margin-top: 15px;
+}
+span{
+    display: flex;
+    
+}
+.Clock{
+    margin-right: 25px;
+    width: 35%;
+}
+
+.attribution{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    word-wrap: break-word;
+}
+/* Soft blue: hsl(215, 51%, 70%)
+Cyan: hsl(178, 100%, 50%) 
+Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)*/
