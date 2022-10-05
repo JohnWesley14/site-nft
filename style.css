@@ -38,7 +38,7 @@ h3,h4,p{
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     width: 280px;
-    height: 450px;
+    height: 500px;
 }
 .CardBottom{
     display: flex;
@@ -46,6 +46,7 @@ h3,h4,p{
     justify-content: flex-start;
 }
 .BoxImage{
+    margin-top: -55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +55,12 @@ h3,h4,p{
 #Card-Image{
     display: flex;
     justify-content: center;
-    width: 80%;
-    height: 95%;
-    border-radius: 10px;
+    width: 235px;
+    height: 220px;
+    border-radius: 6px;
 }
 .CardBottomTextUp{
+    margin-top: 20px;
     width: 98%;
 }
 .CardBottomTextCenter{
@@ -89,7 +91,8 @@ h3,h4,p{
     border-top: 0.01px solid rgba(207, 230, 227, 0.604);
     gap: 10px;
     display: flex;
-    margin-top: 15px;
+    padding-top: 28px;
+    margin-bottom: -28px;
 }
 span{
     display: flex;
