@@ -1,4 +1,4 @@
-# Site Etheruem Landing Page - FrontEnd Mentor
+# Site Etheruem - FrontEnd Mentor
 
 > Um simples card.
 
